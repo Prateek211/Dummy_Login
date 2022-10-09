@@ -33,7 +33,7 @@ public class swingsapp implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e){
         if(e.getSource()==b)
-            JOptionPane.showMessageDialog(j,"Welcome to Java" + jt.getText());
+            JOptionPane.showMessageDialog(j,"Welcome to Java:" + jt.getText());
     }
     public static void main(String[] args){
         new swingsapp();
